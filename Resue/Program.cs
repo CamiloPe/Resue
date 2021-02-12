@@ -16,7 +16,7 @@ namespace Resue
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmLoggIn());
+            Application.Run(new FrmOdin());
         }
     }
 }
