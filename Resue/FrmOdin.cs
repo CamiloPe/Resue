@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Resue
 {
-    public partial class Form1 : Form
+    public partial class FrmOdin : Form
     {
-        public Form1()
+        public FrmOdin()
         {
             InitializeComponent();
         }
