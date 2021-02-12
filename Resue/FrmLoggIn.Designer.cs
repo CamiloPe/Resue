@@ -339,16 +339,16 @@ namespace Resue
             // 
             this.btnAceptar.Location = new System.Drawing.Point(340, 192);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(191, 35);
+            this.btnAceptar.Size = new System.Drawing.Size(188, 35);
             this.btnAceptar.TabIndex = 12;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
             // 
             // btnMenu
             // 
-            this.btnMenu.Location = new System.Drawing.Point(534, 192);
+            this.btnMenu.Location = new System.Drawing.Point(539, 192);
             this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(191, 35);
+            this.btnMenu.Size = new System.Drawing.Size(186, 35);
             this.btnMenu.TabIndex = 13;
             this.btnMenu.Text = "Menu";
             this.btnMenu.UseVisualStyleBackColor = true;
