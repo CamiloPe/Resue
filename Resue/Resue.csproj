@@ -78,6 +78,9 @@
     <EmbeddedResource Include="FrmOdin.resx">
       <DependentUpon>FrmOdin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmTips.resx">
+      <DependentUpon>FrmTips.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmTres.resx">
       <DependentUpon>FrmTres.cs</DependentUpon>
     </EmbeddedResource>
