@@ -32,21 +32,22 @@ namespace Resue
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmTips));
             this.pnlMenuSuperior = new System.Windows.Forms.Panel();
             this.pnlMenuIzquierda = new System.Windows.Forms.Panel();
-            this.pnlCentral = new System.Windows.Forms.Panel();
-            this.lblTips = new System.Windows.Forms.Label();
-            this.btnBebes = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnNiños = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.btnAdolescente = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.btnAdultos = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnAncianos = new System.Windows.Forms.Button();
-            this.pctSueño = new System.Windows.Forms.PictureBox();
-            this.lblHorasDormir = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.btnAdultos = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.btnAdolescente = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnNiños = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnBebes = new System.Windows.Forms.Button();
+            this.lblTips = new System.Windows.Forms.Label();
+            this.pnlCentral = new System.Windows.Forms.Panel();
             this.prgHorasRecomendadas = new System.Windows.Forms.ProgressBar();
+            this.lblHorasDormir = new System.Windows.Forms.Label();
+            this.pctSueño = new System.Windows.Forms.PictureBox();
+            this.pnlRecomendaciones = new System.Windows.Forms.Panel();
             this.pnlMenuIzquierda.SuspendLayout();
             this.pnlCentral.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctSueño)).BeginInit();
@@ -83,101 +84,30 @@ namespace Resue
             this.pnlMenuIzquierda.TabIndex = 0;
             this.pnlMenuIzquierda.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMenuIzquierda_Paint);
             // 
-            // pnlCentral
+            // panel5
             // 
-            this.pnlCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.pnlCentral.Controls.Add(this.prgHorasRecomendadas);
-            this.pnlCentral.Controls.Add(this.lblHorasDormir);
-            this.pnlCentral.Controls.Add(this.pctSueño);
-            this.pnlCentral.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlCentral.ForeColor = System.Drawing.Color.White;
-            this.pnlCentral.Location = new System.Drawing.Point(200, 30);
-            this.pnlCentral.Name = "pnlCentral";
-            this.pnlCentral.Size = new System.Drawing.Size(600, 420);
-            this.pnlCentral.TabIndex = 1;
+            this.panel5.BackColor = System.Drawing.Color.Teal;
+            this.panel5.Location = new System.Drawing.Point(3, 196);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(5, 32);
+            this.panel5.TabIndex = 10;
             // 
-            // lblTips
+            // btnAncianos
             // 
-            this.lblTips.AutoSize = true;
-            this.lblTips.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTips.ForeColor = System.Drawing.Color.White;
-            this.lblTips.Location = new System.Drawing.Point(10, 3);
-            this.lblTips.Name = "lblTips";
-            this.lblTips.Size = new System.Drawing.Size(148, 21);
-            this.lblTips.TabIndex = 0;
-            this.lblTips.Text = "Recomendaciones";
-            // 
-            // btnBebes
-            // 
-            this.btnBebes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnBebes.FlatAppearance.BorderSize = 0;
-            this.btnBebes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
-            this.btnBebes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBebes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBebes.ForeColor = System.Drawing.Color.White;
-            this.btnBebes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBebes.Location = new System.Drawing.Point(3, 45);
-            this.btnBebes.Name = "btnBebes";
-            this.btnBebes.Size = new System.Drawing.Size(191, 35);
-            this.btnBebes.TabIndex = 1;
-            this.btnBebes.Text = "Bebes";
-            this.btnBebes.UseVisualStyleBackColor = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Teal;
-            this.panel1.Location = new System.Drawing.Point(3, 45);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(5, 32);
-            this.panel1.TabIndex = 2;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Teal;
-            this.panel2.Location = new System.Drawing.Point(3, 80);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(5, 32);
-            this.panel2.TabIndex = 4;
-            // 
-            // btnNiños
-            // 
-            this.btnNiños.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnNiños.FlatAppearance.BorderSize = 0;
-            this.btnNiños.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
-            this.btnNiños.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNiños.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNiños.ForeColor = System.Drawing.Color.White;
-            this.btnNiños.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNiños.Location = new System.Drawing.Point(3, 80);
-            this.btnNiños.Name = "btnNiños";
-            this.btnNiños.Size = new System.Drawing.Size(191, 35);
-            this.btnNiños.TabIndex = 3;
-            this.btnNiños.Text = "Niños";
-            this.btnNiños.UseVisualStyleBackColor = false;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Teal;
-            this.panel3.Location = new System.Drawing.Point(3, 118);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(5, 32);
-            this.panel3.TabIndex = 6;
-            // 
-            // btnAdolescente
-            // 
-            this.btnAdolescente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnAdolescente.FlatAppearance.BorderSize = 0;
-            this.btnAdolescente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
-            this.btnAdolescente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdolescente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdolescente.ForeColor = System.Drawing.Color.White;
-            this.btnAdolescente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdolescente.Location = new System.Drawing.Point(6, 118);
-            this.btnAdolescente.Name = "btnAdolescente";
-            this.btnAdolescente.Size = new System.Drawing.Size(191, 35);
-            this.btnAdolescente.TabIndex = 5;
-            this.btnAdolescente.Text = "Adolescentes";
-            this.btnAdolescente.UseVisualStyleBackColor = false;
+            this.btnAncianos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnAncianos.FlatAppearance.BorderSize = 0;
+            this.btnAncianos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
+            this.btnAncianos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAncianos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAncianos.ForeColor = System.Drawing.Color.White;
+            this.btnAncianos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAncianos.Location = new System.Drawing.Point(5, 193);
+            this.btnAncianos.Name = "btnAncianos";
+            this.btnAncianos.Size = new System.Drawing.Size(191, 35);
+            this.btnAncianos.TabIndex = 9;
+            this.btnAncianos.Text = "Ancianos";
+            this.btnAncianos.UseVisualStyleBackColor = false;
+            this.btnAncianos.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // panel4
             // 
@@ -204,40 +134,110 @@ namespace Resue
             this.btnAdultos.UseVisualStyleBackColor = false;
             this.btnAdultos.Click += new System.EventHandler(this.button1_Click);
             // 
-            // panel5
+            // panel3
             // 
-            this.panel5.BackColor = System.Drawing.Color.Teal;
-            this.panel5.Location = new System.Drawing.Point(3, 196);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(5, 32);
-            this.panel5.TabIndex = 10;
+            this.panel3.BackColor = System.Drawing.Color.Teal;
+            this.panel3.Location = new System.Drawing.Point(3, 118);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(5, 32);
+            this.panel3.TabIndex = 6;
             // 
-            // btnAncianos
+            // btnAdolescente
             // 
-            this.btnAncianos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btnAncianos.FlatAppearance.BorderSize = 0;
-            this.btnAncianos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
-            this.btnAncianos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAncianos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAncianos.ForeColor = System.Drawing.Color.White;
-            this.btnAncianos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAncianos.Location = new System.Drawing.Point(5, 193);
-            this.btnAncianos.Name = "btnAncianos";
-            this.btnAncianos.Size = new System.Drawing.Size(191, 35);
-            this.btnAncianos.TabIndex = 9;
-            this.btnAncianos.Text = "Ancianos";
-            this.btnAncianos.UseVisualStyleBackColor = false;
-            this.btnAncianos.Click += new System.EventHandler(this.button1_Click_1);
+            this.btnAdolescente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnAdolescente.FlatAppearance.BorderSize = 0;
+            this.btnAdolescente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
+            this.btnAdolescente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdolescente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdolescente.ForeColor = System.Drawing.Color.White;
+            this.btnAdolescente.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdolescente.Location = new System.Drawing.Point(6, 118);
+            this.btnAdolescente.Name = "btnAdolescente";
+            this.btnAdolescente.Size = new System.Drawing.Size(191, 35);
+            this.btnAdolescente.TabIndex = 5;
+            this.btnAdolescente.Text = "Adolescentes";
+            this.btnAdolescente.UseVisualStyleBackColor = false;
             // 
-            // pctSueño
+            // panel2
             // 
-            this.pctSueño.Image = ((System.Drawing.Image)(resources.GetObject("pctSueño.Image")));
-            this.pctSueño.Location = new System.Drawing.Point(0, 0);
-            this.pctSueño.Name = "pctSueño";
-            this.pctSueño.Size = new System.Drawing.Size(202, 150);
-            this.pctSueño.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctSueño.TabIndex = 0;
-            this.pctSueño.TabStop = false;
+            this.panel2.BackColor = System.Drawing.Color.Teal;
+            this.panel2.Location = new System.Drawing.Point(3, 80);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(5, 32);
+            this.panel2.TabIndex = 4;
+            // 
+            // btnNiños
+            // 
+            this.btnNiños.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnNiños.FlatAppearance.BorderSize = 0;
+            this.btnNiños.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
+            this.btnNiños.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNiños.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNiños.ForeColor = System.Drawing.Color.White;
+            this.btnNiños.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNiños.Location = new System.Drawing.Point(3, 80);
+            this.btnNiños.Name = "btnNiños";
+            this.btnNiños.Size = new System.Drawing.Size(191, 35);
+            this.btnNiños.TabIndex = 3;
+            this.btnNiños.Text = "Niños";
+            this.btnNiños.UseVisualStyleBackColor = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Teal;
+            this.panel1.Location = new System.Drawing.Point(3, 45);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(5, 32);
+            this.panel1.TabIndex = 2;
+            // 
+            // btnBebes
+            // 
+            this.btnBebes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnBebes.FlatAppearance.BorderSize = 0;
+            this.btnBebes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
+            this.btnBebes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBebes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBebes.ForeColor = System.Drawing.Color.White;
+            this.btnBebes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBebes.Location = new System.Drawing.Point(3, 45);
+            this.btnBebes.Name = "btnBebes";
+            this.btnBebes.Size = new System.Drawing.Size(191, 35);
+            this.btnBebes.TabIndex = 1;
+            this.btnBebes.Text = "Bebes";
+            this.btnBebes.UseVisualStyleBackColor = false;
+            // 
+            // lblTips
+            // 
+            this.lblTips.AutoSize = true;
+            this.lblTips.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTips.ForeColor = System.Drawing.Color.White;
+            this.lblTips.Location = new System.Drawing.Point(10, 3);
+            this.lblTips.Name = "lblTips";
+            this.lblTips.Size = new System.Drawing.Size(148, 21);
+            this.lblTips.TabIndex = 0;
+            this.lblTips.Text = "Recomendaciones";
+            // 
+            // pnlCentral
+            // 
+            this.pnlCentral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.pnlCentral.Controls.Add(this.pnlRecomendaciones);
+            this.pnlCentral.Controls.Add(this.prgHorasRecomendadas);
+            this.pnlCentral.Controls.Add(this.lblHorasDormir);
+            this.pnlCentral.Controls.Add(this.pctSueño);
+            this.pnlCentral.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlCentral.ForeColor = System.Drawing.Color.White;
+            this.pnlCentral.Location = new System.Drawing.Point(200, 30);
+            this.pnlCentral.Name = "pnlCentral";
+            this.pnlCentral.Size = new System.Drawing.Size(600, 420);
+            this.pnlCentral.TabIndex = 1;
+            // 
+            // prgHorasRecomendadas
+            // 
+            this.prgHorasRecomendadas.Location = new System.Drawing.Point(240, 45);
+            this.prgHorasRecomendadas.Name = "prgHorasRecomendadas";
+            this.prgHorasRecomendadas.Size = new System.Drawing.Size(297, 48);
+            this.prgHorasRecomendadas.TabIndex = 2;
+            this.prgHorasRecomendadas.Value = 100;
             // 
             // lblHorasDormir
             // 
@@ -249,13 +249,22 @@ namespace Resue
             this.lblHorasDormir.TabIndex = 1;
             this.lblHorasDormir.Text = "Horas recomendadas";
             // 
-            // prgHorasRecomendadas
+            // pctSueño
             // 
-            this.prgHorasRecomendadas.Location = new System.Drawing.Point(240, 45);
-            this.prgHorasRecomendadas.Name = "prgHorasRecomendadas";
-            this.prgHorasRecomendadas.Size = new System.Drawing.Size(297, 48);
-            this.prgHorasRecomendadas.TabIndex = 2;
-            this.prgHorasRecomendadas.Value = 100;
+            this.pctSueño.Image = ((System.Drawing.Image)(resources.GetObject("pctSueño.Image")));
+            this.pctSueño.Location = new System.Drawing.Point(0, 0);
+            this.pctSueño.Name = "pctSueño";
+            this.pctSueño.Size = new System.Drawing.Size(202, 150);
+            this.pctSueño.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctSueño.TabIndex = 0;
+            this.pctSueño.TabStop = false;
+            // 
+            // pnlRecomendaciones
+            // 
+            this.pnlRecomendaciones.Location = new System.Drawing.Point(63, 159);
+            this.pnlRecomendaciones.Name = "pnlRecomendaciones";
+            this.pnlRecomendaciones.Size = new System.Drawing.Size(482, 239);
+            this.pnlRecomendaciones.TabIndex = 0;
             // 
             // FrmTips
             // 
@@ -295,5 +304,6 @@ namespace Resue
         private System.Windows.Forms.ProgressBar prgHorasRecomendadas;
         private System.Windows.Forms.Label lblHorasDormir;
         private System.Windows.Forms.PictureBox pctSueño;
+        private System.Windows.Forms.Panel pnlRecomendaciones;
     }
 }

@@ -16,5 +16,20 @@ namespace Resue
         {
             InitializeComponent();
         }
+
+        private void rdbOtro_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblEdad_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chcInsomnio_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
